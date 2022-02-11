@@ -1,0 +1,22 @@
+/** @format */
+
+.actionButtons {
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border: none;
+}
+.imgWrapper {
+  background-color: rgb(250, 197, 4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  border-radius: 8px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
